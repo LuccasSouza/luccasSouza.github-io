@@ -1,0 +1,44 @@
+<html>
+<head><link rel= "stylesheet"  type="text/css"   href="style.css">
+</head>
+<body bgcolor=black><h1 align=center>
+<table border=1 align=center>
+<tr><td colspan=6 align=center><img src=foto1.png name=foto width=750 height=500></td></tr>
+<tr><td><img src=foto2.png width=100 height=100 onMouseOver="Trocafoto2()" onMouseOut="Voltafoto1()"></td>
+<td><img src=foto3.png width=100 height=100 onMouseOver="Trocafoto3()" onMouseOut="Voltafoto1()"> </td>
+<td><img src=foto4.png width=100 height=100 onMouseOver="Trocafoto4()" onMouseOut="Voltafoto1()" ></td>
+<td><img src=foto5.png width=100 height=100 onMouseOver="Trocafoto5()" onMouseOut="Voltafoto1()" ></td>
+<td><img src=foto6.png width=100 height=100 onMouseOver="Trocafoto6()" onMouseOut="Voltafoto1()" ></td>
+<td><img src=foto7.png width=100 height=100 onMouseOver="Trocafoto7()" onMouseOut="Voltafoto1()" ></td>
+</tr>
+</table>
+
+<Script Language="JavaScript">
+<!-- 
+//essa imagem faz a troca para flores2
+function Trocafoto2(){
+document.images["foto"].src="foto2.png"
+}
+function Trocafoto3(){
+document.images["foto"].src="foto3.png"
+}
+function Trocafoto4(){
+document.images["foto"].src="foto4.png"
+}
+function Trocafoto5(){
+document.images["foto"].src="foto5.png"
+}
+function Trocafoto6(){
+document.images["foto"].src="foto6.png"
+}
+function Trocafoto7(){
+document.images["foto"].src="foto7.png"
+}
+//essa função retorna a imagem inicial
+function Voltafoto1(){
+document.images["foto"].src="foto1.png"
+}
+//-->
+</script>
+</body></html>
+
